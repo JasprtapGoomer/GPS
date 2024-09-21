@@ -110,6 +110,10 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
+
+
 	  if (gps_data_received)  // Check volatile variable, as it could be updated in ISR
 	         {
 	             if (GPS_GetCoordinates(latitude, longitude))
@@ -117,7 +121,6 @@ int main(void)
 	                 printf("Latitude: %s, Longitude: %s\n", latitude, longitude);
 	             }
 	         }
-    /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
 }
