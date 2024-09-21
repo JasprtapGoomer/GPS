@@ -54,6 +54,8 @@ STM32F446RE         NEO-M9N GPS Module
 +-----------+       +-----------------+
 ```
 
+![Pin Layout](Pin_Layout.png)
+
 ### 2. **Baud Rate Configuration:**
    - Set the baud rate for communication to **9600 bps**, as this is the default baud rate for GPS communication.
 
